@@ -1,13 +1,14 @@
-div{
-    position: absolute;
-    left:50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    color: blue;
+.nav_right{
+    display: flex;
+    justify-content: space-between;
 }
-h6{
-    color: aqua;
+.nav_btn{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 15px;
 }
